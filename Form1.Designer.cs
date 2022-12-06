@@ -102,7 +102,7 @@ namespace PressStart_DBMS
             this.Controls.Add(this.btnRepairOrders);
             this.Controls.Add(this.btnInventory);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Press Start DBMS";
             this.ResumeLayout(false);
 
         }
