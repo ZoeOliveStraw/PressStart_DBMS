@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PressStart_DBMS/1.0.0": {
+        "runtime": {
+          "PressStart_DBMS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PressStart_DBMS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

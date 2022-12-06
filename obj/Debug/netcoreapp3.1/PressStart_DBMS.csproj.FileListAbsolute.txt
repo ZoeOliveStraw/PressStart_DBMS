@@ -1,0 +1,40 @@
+C:\Users\Zoe\source\repos\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.csproj.AssemblyReference.cache
+C:\Users\Zoe\source\repos\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmInventorySearch.resources
+C:\Users\Zoe\source\repos\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmRepairOrderSearch.resources
+C:\Users\Zoe\source\repos\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.Form1.resources
+C:\Users\Zoe\source\repos\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.csproj.GenerateResource.cache
+C:\Users\Zoe\source\repos\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zoe\source\repos\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.AssemblyInfoInputs.cache
+C:\Users\Zoe\source\repos\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.AssemblyInfo.cs
+C:\Users\Zoe\source\repos\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.csproj.CoreCompileInputs.cache
+C:\Users\Zoe\source\repos\PressStart_DBMS\bin\Debug\netcoreapp3.1\PressStart_DBMS.exe
+C:\Users\Zoe\source\repos\PressStart_DBMS\bin\Debug\netcoreapp3.1\PressStart_DBMS.deps.json
+C:\Users\Zoe\source\repos\PressStart_DBMS\bin\Debug\netcoreapp3.1\PressStart_DBMS.runtimeconfig.json
+C:\Users\Zoe\source\repos\PressStart_DBMS\bin\Debug\netcoreapp3.1\PressStart_DBMS.runtimeconfig.dev.json
+C:\Users\Zoe\source\repos\PressStart_DBMS\bin\Debug\netcoreapp3.1\PressStart_DBMS.dll
+C:\Users\Zoe\source\repos\PressStart_DBMS\bin\Debug\netcoreapp3.1\PressStart_DBMS.pdb
+C:\Users\Zoe\source\repos\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.dll
+C:\Users\Zoe\source\repos\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.pdb
+C:\Users\Zoe\source\repos\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.genruntimeconfig.cache
+C:\Users\Zoe\source\repos\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmStores.resources
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\bin\Debug\netcoreapp3.1\PressStart_DBMS.exe
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\bin\Debug\netcoreapp3.1\PressStart_DBMS.deps.json
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\bin\Debug\netcoreapp3.1\PressStart_DBMS.runtimeconfig.json
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\bin\Debug\netcoreapp3.1\PressStart_DBMS.runtimeconfig.dev.json
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\bin\Debug\netcoreapp3.1\PressStart_DBMS.dll
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\bin\Debug\netcoreapp3.1\PressStart_DBMS.pdb
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.csproj.AssemblyReference.cache
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.Form1.resources
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmCustomers.resources
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmInventorySearch.resources
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmRepairOrderSearch.resources
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmStaff.resources
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmStores.resources
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.csproj.GenerateResource.cache
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.AssemblyInfoInputs.cache
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.AssemblyInfo.cs
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.csproj.CoreCompileInputs.cache
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.dll
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.pdb
+C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.genruntimeconfig.cache
