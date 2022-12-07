@@ -11,9 +11,11 @@ namespace PressStart_DBMS
 {
     public partial class FrmStores : Form
     {
+        DataQueryBuilder dqb;
         public FrmStores()
         {
             InitializeComponent();
+            dqb = new DataQueryBuilder();
             ListStores();
         }
 
@@ -24,12 +26,8 @@ namespace PressStart_DBMS
 
         private void ListStores()
         {
-            db_conn myConnection = new db_conn();
-            myConnection.Initialize();
-            
-
-
-            myConnection.Close();
+            DataTable storeData = dqb.SelectAllQuery("Store_Table");
+            dataGridStore.DataSource = storeData;
         }
     }
 }
