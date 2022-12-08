@@ -74,3 +74,5 @@ C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\bin\Debug\netcoreapp3
 C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.csproj.CopyComplete
 C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddCustomer.resources
+C:\Users\zoeol\Documents\School\Databases 3\Final Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddCustomer.resources
+C:\Users\zoeol\Documents\School\Databases 3\Final Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddRepairOrder.resources

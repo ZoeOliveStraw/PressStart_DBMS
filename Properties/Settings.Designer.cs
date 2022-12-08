@@ -32,5 +32,15 @@ namespace PressStart_DBMS.Properties {
                 return ((string)(this["zoeConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\zoeol\\Documents\\Sch" +
+            "ool\\Databases 3\\Final Project\\PressStart_DBMS\\db.mdf\";Integrated Security=True")]
+        public string zoeLaptopConnection {
+            get {
+                return ((string)(this["zoeLaptopConnection"]));
+            }
+        }
     }
 }

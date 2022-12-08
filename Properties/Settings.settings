@@ -5,5 +5,8 @@
     <Setting Name="zoeConnectionString" Type="System.String" Scope="Application">
       <Value Profile="(Default)">Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\db.mdf";Integrated Security=True</Value>
     </Setting>
+    <Setting Name="zoeLaptopConnection" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="C:\Users\zoeol\Documents\School\Databases 3\Final Project\PressStart_DBMS\db.mdf";Integrated Security=True</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

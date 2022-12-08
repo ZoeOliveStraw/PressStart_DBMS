@@ -30,7 +30,7 @@ namespace PressStart_DBMS.DB_Scripts
             //string connectionString = dbFilePath ;
             //return $"Data Source=(LocalDB)\\MSSQLLocalDB; AttachDbFilename = '{dbFilePath}'; Integrated Security = True";
             //return "Server=DESKTOP-0GT2CJE\\SQLEXPRESS;Initial Catalog=db;Integrated Security=SSPI";
-            return Properties.Settings.Default.zoeConnectionString;
+            return Properties.Settings.Default.zoeLaptopConnection;
         }
     }
 }
