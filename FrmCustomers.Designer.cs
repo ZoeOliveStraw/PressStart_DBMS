@@ -41,6 +41,7 @@ namespace PressStart_DBMS
             // 
             // dataGridCustomer
             // 
+            this.dataGridCustomer.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridCustomer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridCustomer.Location = new System.Drawing.Point(12, 89);
             this.dataGridCustomer.Name = "dataGridCustomer";
