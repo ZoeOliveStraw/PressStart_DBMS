@@ -21,14 +21,12 @@ namespace PressStart_DBMS
             string[] columns =
             {
                 "Store_Address",
-                "Store_Manager_Staff_ID",
                 "Store_Phone"
             };
 
             string[] values =
             {
                 txtaddress.Text,
-                txtmanagerID.Text,
                 txtphone.Text
             };
 

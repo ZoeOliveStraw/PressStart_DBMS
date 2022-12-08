@@ -102,7 +102,7 @@ namespace PressStart_DBMS
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // FrmInventorys
+            // FrmInventorySearch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -115,8 +115,8 @@ namespace PressStart_DBMS
             this.Controls.Add(this.txtSearchTerm);
             this.Controls.Add(this.cbSearchTerm);
             this.Controls.Add(this.dataGridInventory);
-            this.Name = "FrmInventorys";
-            this.Text = "7";
+            this.Name = "FrmInventorySearch";
+            this.Text = "Search Inventory";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridInventory)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

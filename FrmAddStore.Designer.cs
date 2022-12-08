@@ -30,27 +30,18 @@ namespace PressStart_DBMS
         private void InitializeComponent()
         {
             this.txtphone = new System.Windows.Forms.TextBox();
-            this.txtmanagerID = new System.Windows.Forms.TextBox();
             this.txtaddress = new System.Windows.Forms.TextBox();
             this.phonelbl = new System.Windows.Forms.Label();
-            this.manageridlbl = new System.Windows.Forms.Label();
             this.addresslbl = new System.Windows.Forms.Label();
             this.btnAddStore = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtphone
             // 
-            this.txtphone.Location = new System.Drawing.Point(125, 100);
+            this.txtphone.Location = new System.Drawing.Point(125, 68);
             this.txtphone.Name = "txtphone";
             this.txtphone.Size = new System.Drawing.Size(209, 23);
             this.txtphone.TabIndex = 28;
-            // 
-            // txtmanagerID
-            // 
-            this.txtmanagerID.Location = new System.Drawing.Point(125, 62);
-            this.txtmanagerID.Name = "txtmanagerID";
-            this.txtmanagerID.Size = new System.Drawing.Size(209, 23);
-            this.txtmanagerID.TabIndex = 27;
             // 
             // txtaddress
             // 
@@ -62,20 +53,11 @@ namespace PressStart_DBMS
             // phonelbl
             // 
             this.phonelbl.AutoSize = true;
-            this.phonelbl.Location = new System.Drawing.Point(75, 103);
+            this.phonelbl.Location = new System.Drawing.Point(75, 71);
             this.phonelbl.Name = "phonelbl";
             this.phonelbl.Size = new System.Drawing.Size(44, 15);
             this.phonelbl.TabIndex = 24;
             this.phonelbl.Text = "Phone:";
-            // 
-            // manageridlbl
-            // 
-            this.manageridlbl.AutoSize = true;
-            this.manageridlbl.Location = new System.Drawing.Point(48, 65);
-            this.manageridlbl.Name = "manageridlbl";
-            this.manageridlbl.Size = new System.Drawing.Size(71, 15);
-            this.manageridlbl.TabIndex = 23;
-            this.manageridlbl.Text = "Manager ID:";
             // 
             // addresslbl
             // 
@@ -88,7 +70,7 @@ namespace PressStart_DBMS
             // 
             // btnAddStore
             // 
-            this.btnAddStore.Location = new System.Drawing.Point(165, 140);
+            this.btnAddStore.Location = new System.Drawing.Point(165, 112);
             this.btnAddStore.Name = "btnAddStore";
             this.btnAddStore.Size = new System.Drawing.Size(116, 57);
             this.btnAddStore.TabIndex = 36;
@@ -104,10 +86,8 @@ namespace PressStart_DBMS
             this.ClientSize = new System.Drawing.Size(423, 256);
             this.Controls.Add(this.btnAddStore);
             this.Controls.Add(this.txtphone);
-            this.Controls.Add(this.txtmanagerID);
             this.Controls.Add(this.txtaddress);
             this.Controls.Add(this.phonelbl);
-            this.Controls.Add(this.manageridlbl);
             this.Controls.Add(this.addresslbl);
             this.Name = "FrmAddStore";
             this.Text = "FrmAddStore";
@@ -118,10 +98,8 @@ namespace PressStart_DBMS
 
         #endregion
         private System.Windows.Forms.TextBox txtphone;
-        private System.Windows.Forms.TextBox txtmanagerID;
         private System.Windows.Forms.TextBox txtaddress;
         private System.Windows.Forms.Label phonelbl;
-        private System.Windows.Forms.Label manageridlbl;
         private System.Windows.Forms.Label addresslbl;
         private System.Windows.Forms.Button btnAddStore;
     }

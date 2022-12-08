@@ -43,7 +43,7 @@ namespace PressStart_DBMS
             this.catagorylbl = new System.Windows.Forms.Label();
             this.txtstoreid = new System.Windows.Forms.TextBox();
             this.storeidlbl = new System.Windows.Forms.Label();
-            this.btnAddStaff = new System.Windows.Forms.Button();
+            this.btnAddProduct = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtstartdate
@@ -158,22 +158,22 @@ namespace PressStart_DBMS
             this.storeidlbl.TabIndex = 34;
             this.storeidlbl.Text = "Staff Store ID:";
             // 
-            // btnAddStaff
+            // btnAddProduct
             // 
-            this.btnAddStaff.Location = new System.Drawing.Point(218, 276);
-            this.btnAddStaff.Name = "btnAddStaff";
-            this.btnAddStaff.Size = new System.Drawing.Size(116, 57);
-            this.btnAddStaff.TabIndex = 36;
-            this.btnAddStaff.Text = "Add Staff Member";
-            this.btnAddStaff.UseVisualStyleBackColor = true;
+            this.btnAddProduct.Location = new System.Drawing.Point(218, 276);
+            this.btnAddProduct.Name = "btnAddProduct";
+            this.btnAddProduct.Size = new System.Drawing.Size(116, 57);
+            this.btnAddProduct.TabIndex = 36;
+            this.btnAddProduct.Text = "Add Product";
+            this.btnAddProduct.UseVisualStyleBackColor = true;
             // 
-            // FrmAddStaff
+            // FrmAddInventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(423, 450);
-            this.Controls.Add(this.btnAddStaff);
+            this.Controls.Add(this.btnAddProduct);
             this.Controls.Add(this.txtstoreid);
             this.Controls.Add(this.storeidlbl);
             this.Controls.Add(this.txtcatagory);
@@ -188,8 +188,8 @@ namespace PressStart_DBMS
             this.Controls.Add(this.emaillbl);
             this.Controls.Add(this.lnamelbl);
             this.Controls.Add(this.fnamelbl);
-            this.Name = "FrmAddStaff";
-            this.Text = "FrmStaff";
+            this.Name = "FrmAddInventory";
+            this.Text = "FrmAddInventory";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -210,6 +210,6 @@ namespace PressStart_DBMS
         private System.Windows.Forms.Label catagorylbl;
         private System.Windows.Forms.TextBox txtstoreid;
         private System.Windows.Forms.Label storeidlbl;
-        private System.Windows.Forms.Button btnAddStaff;
+        private System.Windows.Forms.Button btnAddProduct;
     }
 }
