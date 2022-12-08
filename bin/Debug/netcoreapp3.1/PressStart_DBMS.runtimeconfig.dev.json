@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\zoeol\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\zoeol\\.nuget\\packages"
+      "C:\\Users\\logan\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\logan\\.nuget\\packages"
     ]
   }
 }

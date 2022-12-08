@@ -42,5 +42,15 @@ namespace PressStart_DBMS.Properties {
                 return ((string)(this["zoeLaptopConnection"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\logan\\OneDrive\\Desk" +
+            "top\\DBAS\\FINAL\\Final studio\\db.mdf\";Integrated Security=True")]
+        public string LoganConnString {
+            get {
+                return ((string)(this["LoganConnString"]));
+            }
+        }
     }
 }

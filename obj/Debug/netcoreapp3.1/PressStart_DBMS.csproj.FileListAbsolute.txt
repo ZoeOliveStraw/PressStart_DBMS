@@ -76,3 +76,36 @@ C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3
 C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddCustomer.resources
 C:\Users\zoeol\Documents\School\Databases 3\Final Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddCustomer.resources
 C:\Users\zoeol\Documents\School\Databases 3\Final Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddRepairOrder.resources
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\bin\Debug\netcoreapp3.1\PressStart_DBMS.exe
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\bin\Debug\netcoreapp3.1\PressStart_DBMS.deps.json
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\bin\Debug\netcoreapp3.1\PressStart_DBMS.runtimeconfig.json
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\bin\Debug\netcoreapp3.1\PressStart_DBMS.runtimeconfig.dev.json
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\bin\Debug\netcoreapp3.1\PressStart_DBMS.dll
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\bin\Debug\netcoreapp3.1\PressStart_DBMS.pdb
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.csproj.AssemblyReference.cache
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.Form1.resources
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddCustomer.resources
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddRepairOrder.resources
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmCustomers.resources
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmInventorySearch.resources
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmRepairOrderSearch.resources
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmStaff.resources
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmStores.resources
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.csproj.GenerateResource.cache
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.AssemblyInfoInputs.cache
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.AssemblyInfo.cs
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.csproj.CoreCompileInputs.cache
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.csproj.CopyComplete
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.dll
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.pdb
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.genruntimeconfig.cache
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddStaff.resources
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddInventory.resources
+C:\Users\logan\OneDrive\Desktop\DBAS\FINAL\Final studio\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddStore.resources

@@ -7,10 +7,10 @@
     <Compile Update="FrmAddRepairOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmCustomers.cs">
+    <Compile Update="FrmStaff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmInventorySearch.cs">
+    <Compile Update="FrmCustomers.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmRepairOrderSearch.cs">
@@ -19,7 +19,7 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmStaff.cs">
+    <Compile Update="FrmAddStaff.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmStores.cs">

@@ -116,7 +116,7 @@ namespace PressStart_DBMS
             this.Controls.Add(this.cbSearchTerm);
             this.Controls.Add(this.dataGridCustomer);
             this.Name = "FrmCustomers";
-            this.Text = "FrmCustomers";
+            this.Text = "7";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridCustomer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

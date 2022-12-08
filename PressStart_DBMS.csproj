@@ -15,6 +15,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="FrmAddInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmAddStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmInventorySearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Properties\Settings.Designer.cs">
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <AutoGen>True</AutoGen>

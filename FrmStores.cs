@@ -21,7 +21,9 @@ namespace PressStart_DBMS
 
         private void btnAddStore_Click(object sender, EventArgs e)
         {
-            
+            //This method will open the form for adding a store
+            FrmAddStore addStaffs = new FrmAddStore();
+            addStaffs.ShowDialog();
         }
 
         private void ListStores()
