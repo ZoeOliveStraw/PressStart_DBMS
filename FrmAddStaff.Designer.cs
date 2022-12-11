@@ -166,6 +166,7 @@ namespace PressStart_DBMS
             this.btnAddStaff.TabIndex = 36;
             this.btnAddStaff.Text = "Add Staff Member";
             this.btnAddStaff.UseVisualStyleBackColor = true;
+            this.btnAddStaff.Click += new System.EventHandler(this.btnAddStaff_Click);
             // 
             // FrmAddStaff
             // 

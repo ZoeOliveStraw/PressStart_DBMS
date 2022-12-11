@@ -34,6 +34,7 @@ namespace PressStart_DBMS
             this.btnStores = new System.Windows.Forms.Button();
             this.btnStaff = new System.Windows.Forms.Button();
             this.btnCustomers = new System.Windows.Forms.Button();
+            this.btnProducts = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnInventory
@@ -91,11 +92,23 @@ namespace PressStart_DBMS
             this.btnCustomers.UseVisualStyleBackColor = false;
             this.btnCustomers.Click += new System.EventHandler(this.btnCustomers_Click);
             // 
+            // btnProducts
+            // 
+            this.btnProducts.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnProducts.Location = new System.Drawing.Point(13, 437);
+            this.btnProducts.Name = "btnProducts";
+            this.btnProducts.Size = new System.Drawing.Size(242, 71);
+            this.btnProducts.TabIndex = 5;
+            this.btnProducts.Text = "Products";
+            this.btnProducts.UseVisualStyleBackColor = false;
+            this.btnProducts.Click += new System.EventHandler(this.btnProducts_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(272, 450);
+            this.ClientSize = new System.Drawing.Size(272, 522);
+            this.Controls.Add(this.btnProducts);
             this.Controls.Add(this.btnCustomers);
             this.Controls.Add(this.btnStaff);
             this.Controls.Add(this.btnStores);
@@ -114,6 +127,7 @@ namespace PressStart_DBMS
         private System.Windows.Forms.Button btnStores;
         private System.Windows.Forms.Button btnStaff;
         private System.Windows.Forms.Button btnCustomers;
+        private System.Windows.Forms.Button btnProducts;
     }
 }
 

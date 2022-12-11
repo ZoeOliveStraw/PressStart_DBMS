@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\logan\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\logan\\.nuget\\packages"
+      "C:\\Users\\Zoe\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Zoe\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
     ]
   }
 }

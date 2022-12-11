@@ -42,7 +42,7 @@ namespace PressStart_DBMS
 
             DataQueryBuilder dqb = new DataQueryBuilder();
             dqb.InsertQuery("Staff_Table", columns, values);
-
+            MessageBox.Show("Record added to Staff_Table");
         }
     }
 }
