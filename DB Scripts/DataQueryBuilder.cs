@@ -10,8 +10,13 @@ namespace PressStart_DBMS.DB_Scripts
     //This script will return the contents for a DataGridView from queries that you can build with its arguments
     class DataQueryBuilder
     {
-        public DataTable SelectAllQuery(string tableName, string[] columns = null, 
-            string whereClause = null, string whereSearchTerm = null)
+        public DataTable SelectAllQuery
+            (
+                string tableName, 
+                string[] columns = null, 
+                string whereClause = null, 
+                string whereSearchTerm = null
+            ) // ARGUMENTS FOR SELECT ALL QUERY
         {
             try
             {
@@ -58,6 +63,56 @@ namespace PressStart_DBMS.DB_Scripts
             }
         }
 
+        // This method will allow you to quickly build SELECT statements with an inner join to another table and optional
+        // WHERE clause
+        public DataTable SelectInnerJoin
+            (
+                string tableName, 
+                string[] columns, 
+                string innerJoinTable, 
+                string localJoinColumn,
+                string innerJoinColumn,
+                string whereClause = null,
+                string whereSearchTerm = null
+
+            ) //ARGUMENTS FOR SELECT INNER JOIN
+        {
+            try
+            {
+                db_conn cn = new db_conn();
+                cn.Initialize();
+
+                //STRINGS TO START BUILDING THE QUERIES
+                string c = BuildColumns(columns, false);
+
+                string selectInnerJoin = $"SELECT {c} FROM {tableName} INNER JOIN {innerJoinTable}" +
+                                         $" ON {localJoinColumn} = {innerJoinColumn}";
+
+                ///ADD OPTIONAL WHERE CLAUSE WHEN APPLICABLE
+                if (whereClause != null && whereSearchTerm != null)
+                {
+                    selectInnerJoin += $" WHERE {whereClause} = '{whereSearchTerm}'";
+                }
+
+                selectInnerJoin += ";";
+
+                ///RUN THE QUERY BAYBEE
+                SqlCommand letsGo = new SqlCommand(selectInnerJoin, cn.conn);
+                SqlDataAdapter adapter = new SqlDataAdapter(letsGo);
+                DataTable myTable = new DataTable();
+                adapter.Fill(myTable);
+
+                cn.Close();
+
+                return myTable;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return null;
+            }
+        }
+
         //INSERT A SINGLE VALUE INTO THE REQUESTED TABLE
         //COLUMNS AND VALUES ARE ARRAYS OF RELEVANT VALUES
         public void InsertQuery(string tableName, string[] columns, string[] values)
@@ -89,7 +144,7 @@ namespace PressStart_DBMS.DB_Scripts
             string c = ""; //this will store the columns that we're querying from the table
             foreach (string column in columns)
             {
-                if (quotes) c += $"'{column}',";
+                if (quotes) c += $"'{column}',"; //If we ask for quotes it will wrap each value in single quotes
                 else c += $"{column},";
             }
             ///REMOVE THE LAST COMMA FROM THE LIST TO AVOID A SYNTAX ERROR

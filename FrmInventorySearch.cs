@@ -22,16 +22,36 @@ namespace PressStart_DBMS
 
         private void ListInventorys()
         {
+            string[] columns = { "Product_Instance_Table.Product_Instance_ID",
+                                 "Product_Table.Product_Name",
+                                 "Product_Instance_Table.Product_Instance_Price",
+                                 "Product_Instance_Table.Product_Instance_Used"
+                                };
+
             DataTable storeData; //datatable we can use to 
             if (cbSearchTerm.SelectedItem == null || txtSearchTerm.Text == "")
             {
-                storeData = dqb.SelectAllQuery("Product_Instance_Table");
+                storeData = dqb.SelectInnerJoin
+                    (
+                        "Product_Instance_Table",
+                        columns,
+                        "Product_Table",
+                        "Product_Instance_Table.Product_Instance_Product_ID",
+                        "Product_Table.Product_ID"
+                    );
             }
             else
             {
-                storeData = dqb.SelectAllQuery("Product_Instance_Table",
-                    whereClause: cbSearchTerm.SelectedItem.ToString(),
-                    whereSearchTerm: txtSearchTerm.Text);
+                storeData = dqb.SelectInnerJoin
+                    (
+                        "Product_Instance_Table",
+                        columns,
+                        "Product_Table",
+                        "Product_Instance_Table.Product_Instance_Product_ID",
+                        "Product_Table.Product_ID",
+                        whereClause: cbSearchTerm.Text,
+                        whereSearchTerm: txtSearchTerm.Text
+                    );
             }
             dataGridInventory.DataSource = storeData;
         }

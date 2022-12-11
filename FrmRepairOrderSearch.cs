@@ -22,16 +22,35 @@ namespace PressStart_DBMS
 
         private void ListRepairOrders()
         {
+            string[] columns = { "Repair_Order_Table.Repair_Order_ID",
+                                 "Customer_Table.Customer_First_Name", 
+                                 "Customer_Table.Customer_Last_Name",
+                                 "Repair_Order_Table.Repair_Order_Description"};
+
             DataTable storeData; //datatable we can use to 
             if (cbSearchTerm.SelectedItem == null || txtSearchTerm.Text == "")
             {
-                storeData = dqb.SelectAllQuery("Repair_Order_Table");
+                storeData = dqb.SelectInnerJoin
+                    (
+                        "Repair_Order_Table",
+                        columns, 
+                        "Customer_Table",
+                        "Repair_Order_Table.Repair_Customer_ID",
+                        "Customer_Table.Customer_ID"
+                    );
             }
             else
             {
-                storeData = dqb.SelectAllQuery("Repair_Order_Table",
-                    whereClause: cbSearchTerm.SelectedItem.ToString(),
-                    whereSearchTerm: txtSearchTerm.Text);
+                storeData = dqb.SelectInnerJoin
+                    (
+                        "Repair_Order_Table",
+                        columns,
+                        "Customer_Table",
+                        "Repair_Order_Table.Repair_Customer_ID",
+                        "Customer_Table.Customer_ID",
+                        whereClause: cbSearchTerm.Text,
+                        whereSearchTerm: txtSearchTerm.Text
+                    );
             }
             dataGridRepairOrder.DataSource = storeData;
         }
