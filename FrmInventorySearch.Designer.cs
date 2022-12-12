@@ -54,12 +54,12 @@ namespace PressStart_DBMS
             this.cbSearchTerm.FormattingEnabled = true;
             this.cbSearchTerm.Location = new System.Drawing.Point(58, 35);
             this.cbSearchTerm.Name = "cbSearchTerm";
-            this.cbSearchTerm.Size = new System.Drawing.Size(158, 23);
+            this.cbSearchTerm.Size = new System.Drawing.Size(274, 23);
             this.cbSearchTerm.TabIndex = 1;
             // 
             // txtSearchTerm
             // 
-            this.txtSearchTerm.Location = new System.Drawing.Point(258, 35);
+            this.txtSearchTerm.Location = new System.Drawing.Point(381, 34);
             this.txtSearchTerm.Name = "txtSearchTerm";
             this.txtSearchTerm.Size = new System.Drawing.Size(177, 23);
             this.txtSearchTerm.TabIndex = 2;
@@ -76,7 +76,7 @@ namespace PressStart_DBMS
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(225, 38);
+            this.label1.Location = new System.Drawing.Point(348, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(27, 15);
             this.label1.TabIndex = 4;
@@ -94,7 +94,7 @@ namespace PressStart_DBMS
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(441, 35);
+            this.btnSearch.Location = new System.Drawing.Point(564, 34);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(82, 23);
             this.btnSearch.TabIndex = 6;

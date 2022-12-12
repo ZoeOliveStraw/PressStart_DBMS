@@ -152,5 +152,54 @@ namespace PressStart_DBMS.DB_Scripts
 
             return c;
         }
+
+        //Literally just copypasted this from the above function and changed the WHERE = to WHERE LIKE
+        //Use this for a search that's a little more generous
+        public DataTable SelectInnerJoinWhereLike
+        (
+            string tableName,
+            string[] columns,
+            string innerJoinTable,
+            string localJoinColumn,
+            string innerJoinColumn,
+            string whereClause = null,
+            string whereSearchTerm = null
+        ) //ARGUMENTS FOR SELECT INNER JOIN
+        {
+            try
+            {
+                db_conn cn = new db_conn();
+                cn.Initialize();
+
+                //STRINGS TO START BUILDING THE QUERIES
+                string c = BuildColumns(columns, false);
+
+                string selectInnerJoin = $"SELECT {c} FROM {tableName} INNER JOIN {innerJoinTable}" +
+                                         $" ON {localJoinColumn} = {innerJoinColumn}";
+
+                ///ADD OPTIONAL WHERE CLAUSE WHEN APPLICABLE
+                if (whereClause != null && whereSearchTerm != null)
+                {
+                    selectInnerJoin += $" WHERE {whereClause} LIKE '%{whereSearchTerm}%'";
+                }
+
+                selectInnerJoin += ";";
+
+                ///RUN THE QUERY BAYBEE
+                SqlCommand letsGo = new SqlCommand(selectInnerJoin, cn.conn);
+                SqlDataAdapter adapter = new SqlDataAdapter(letsGo);
+                DataTable myTable = new DataTable();
+                adapter.Fill(myTable);
+
+                cn.Close();
+
+                return myTable;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return null;
+            }
+        }
     }
 }

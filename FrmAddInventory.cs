@@ -16,33 +16,37 @@ namespace PressStart_DBMS
             InitializeComponent();
         }
 
-        private void btnAddInventory_Click(object sender, EventArgs e)
+        private void btnAddProduct_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("About to add record!");
             string[] columns =
             {
-                "Inventory_First_Name",
-                "Inventory_Last_Name",
-                "Inventory_Email",
-                "Inventory_Start_Date",
-                "Inventory_Phone",
-                "Inventory_Category",
-                "Inventory_Store_ID"
+                "Product_Instance_Product_ID",
+                "Product_Instance_Price",
+                "Product_Instance_Store_ID",
+                "Product_Instance_Used",
+                "Product_Instance_Customer_ID_Seller",
+                "Product_Instance_Condition"
             };
 
-            string[] values =
+            string[] values = 
             {
-                txtfname.Text,
-                txtlname.Text,
-                txtemail.Text,
-                txtstartdate.Text,
-                txtphone.Text,
-                txtcatagory.Text,
-                txtstoreid.Text
+                txtProductID.Text,
+                txtPrice.Text,
+                txtStoreID.Text,
+                chkUsed.Checked ? "true":"false",
+                txtSellerID.Text,
+                txtCondition.Text
             };
 
             DataQueryBuilder dqb = new DataQueryBuilder();
-            dqb.InsertQuery("Inventory_Table", columns, values);
+            dqb.InsertQuery("Product_Instance_Table", columns, values);
+        }
 
+        private void chkUsed_CheckedChanged(object sender, EventArgs e)
+        {
+            txtCondition.Enabled = chkUsed.Checked;
+            txtSellerID.Enabled = chkUsed.Checked;
         }
     }
 }

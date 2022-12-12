@@ -52,5 +52,11 @@ namespace PressStart_DBMS
             FrmProducts productsInstance = new FrmProducts();
             productsInstance.ShowDialog();
         }
+
+        private void btnProcessPurchase_Click(object sender, EventArgs e)
+        {
+            FrmProcessPurchase processPurchaseInstance = new FrmProcessPurchase();
+            processPurchaseInstance.ShowDialog();
+        }
     }
 }

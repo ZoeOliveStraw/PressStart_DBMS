@@ -29,164 +29,140 @@ namespace PressStart_DBMS
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtstartdate = new System.Windows.Forms.TextBox();
-            this.txtemail = new System.Windows.Forms.TextBox();
-            this.txtlname = new System.Windows.Forms.TextBox();
-            this.txtfname = new System.Windows.Forms.TextBox();
-            this.startdatelbl = new System.Windows.Forms.Label();
+            this.txtPrice = new System.Windows.Forms.TextBox();
+            this.txtProductID = new System.Windows.Forms.TextBox();
             this.emaillbl = new System.Windows.Forms.Label();
-            this.lnamelbl = new System.Windows.Forms.Label();
             this.fnamelbl = new System.Windows.Forms.Label();
-            this.txtphone = new System.Windows.Forms.TextBox();
-            this.phonelbl = new System.Windows.Forms.Label();
-            this.txtcatagory = new System.Windows.Forms.TextBox();
-            this.catagorylbl = new System.Windows.Forms.Label();
-            this.txtstoreid = new System.Windows.Forms.TextBox();
-            this.storeidlbl = new System.Windows.Forms.Label();
             this.btnAddProduct = new System.Windows.Forms.Button();
+            this.chkUsed = new System.Windows.Forms.CheckBox();
+            this.txtStoreID = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtSellerID = new System.Windows.Forms.TextBox();
+            this.txtCondition = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // txtstartdate
+            // txtPrice
             // 
-            this.txtstartdate.Location = new System.Drawing.Point(125, 134);
-            this.txtstartdate.Name = "txtstartdate";
-            this.txtstartdate.Size = new System.Drawing.Size(209, 23);
-            this.txtstartdate.TabIndex = 29;
+            this.txtPrice.Location = new System.Drawing.Point(128, 46);
+            this.txtPrice.Name = "txtPrice";
+            this.txtPrice.Size = new System.Drawing.Size(209, 23);
+            this.txtPrice.TabIndex = 28;
             // 
-            // txtemail
+            // txtProductID
             // 
-            this.txtemail.Location = new System.Drawing.Point(125, 100);
-            this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(209, 23);
-            this.txtemail.TabIndex = 28;
-            // 
-            // txtlname
-            // 
-            this.txtlname.Location = new System.Drawing.Point(125, 62);
-            this.txtlname.Name = "txtlname";
-            this.txtlname.Size = new System.Drawing.Size(209, 23);
-            this.txtlname.TabIndex = 27;
-            // 
-            // txtfname
-            // 
-            this.txtfname.Location = new System.Drawing.Point(125, 28);
-            this.txtfname.Name = "txtfname";
-            this.txtfname.Size = new System.Drawing.Size(209, 23);
-            this.txtfname.TabIndex = 26;
-            // 
-            // startdatelbl
-            // 
-            this.startdatelbl.AutoSize = true;
-            this.startdatelbl.Location = new System.Drawing.Point(31, 137);
-            this.startdatelbl.Name = "startdatelbl";
-            this.startdatelbl.Size = new System.Drawing.Size(88, 15);
-            this.startdatelbl.TabIndex = 25;
-            this.startdatelbl.Text = "Staff Start Date:";
+            this.txtProductID.Location = new System.Drawing.Point(128, 8);
+            this.txtProductID.Name = "txtProductID";
+            this.txtProductID.Size = new System.Drawing.Size(209, 23);
+            this.txtProductID.TabIndex = 26;
             // 
             // emaillbl
             // 
             this.emaillbl.AutoSize = true;
-            this.emaillbl.Location = new System.Drawing.Point(53, 103);
+            this.emaillbl.Location = new System.Drawing.Point(71, 49);
             this.emaillbl.Name = "emaillbl";
-            this.emaillbl.Size = new System.Drawing.Size(66, 15);
+            this.emaillbl.Size = new System.Drawing.Size(36, 15);
             this.emaillbl.TabIndex = 24;
-            this.emaillbl.Text = "Staff Email:";
-            // 
-            // lnamelbl
-            // 
-            this.lnamelbl.AutoSize = true;
-            this.lnamelbl.Location = new System.Drawing.Point(26, 65);
-            this.lnamelbl.Name = "lnamelbl";
-            this.lnamelbl.Size = new System.Drawing.Size(93, 15);
-            this.lnamelbl.TabIndex = 23;
-            this.lnamelbl.Text = "Staff Last Name:";
+            this.emaillbl.Text = "Price:";
             // 
             // fnamelbl
             // 
             this.fnamelbl.AutoSize = true;
-            this.fnamelbl.Location = new System.Drawing.Point(25, 31);
+            this.fnamelbl.Location = new System.Drawing.Point(41, 11);
             this.fnamelbl.Name = "fnamelbl";
-            this.fnamelbl.Size = new System.Drawing.Size(94, 15);
+            this.fnamelbl.Size = new System.Drawing.Size(66, 15);
             this.fnamelbl.TabIndex = 22;
-            this.fnamelbl.Text = "Staff First Name:";
-            // 
-            // txtphone
-            // 
-            this.txtphone.Location = new System.Drawing.Point(125, 166);
-            this.txtphone.Name = "txtphone";
-            this.txtphone.Size = new System.Drawing.Size(209, 23);
-            this.txtphone.TabIndex = 31;
-            // 
-            // phonelbl
-            // 
-            this.phonelbl.AutoSize = true;
-            this.phonelbl.Location = new System.Drawing.Point(48, 169);
-            this.phonelbl.Name = "phonelbl";
-            this.phonelbl.Size = new System.Drawing.Size(71, 15);
-            this.phonelbl.TabIndex = 30;
-            this.phonelbl.Text = "Staff Phone:";
-            // 
-            // txtcatagory
-            // 
-            this.txtcatagory.Location = new System.Drawing.Point(125, 198);
-            this.txtcatagory.Name = "txtcatagory";
-            this.txtcatagory.Size = new System.Drawing.Size(209, 23);
-            this.txtcatagory.TabIndex = 33;
-            // 
-            // catagorylbl
-            // 
-            this.catagorylbl.AutoSize = true;
-            this.catagorylbl.Location = new System.Drawing.Point(34, 201);
-            this.catagorylbl.Name = "catagorylbl";
-            this.catagorylbl.Size = new System.Drawing.Size(85, 15);
-            this.catagorylbl.TabIndex = 32;
-            this.catagorylbl.Text = "Staff Catagory:";
-            // 
-            // txtstoreid
-            // 
-            this.txtstoreid.Location = new System.Drawing.Point(125, 230);
-            this.txtstoreid.Name = "txtstoreid";
-            this.txtstoreid.Size = new System.Drawing.Size(209, 23);
-            this.txtstoreid.TabIndex = 35;
-            // 
-            // storeidlbl
-            // 
-            this.storeidlbl.AutoSize = true;
-            this.storeidlbl.Location = new System.Drawing.Point(41, 233);
-            this.storeidlbl.Name = "storeidlbl";
-            this.storeidlbl.Size = new System.Drawing.Size(78, 15);
-            this.storeidlbl.TabIndex = 34;
-            this.storeidlbl.Text = "Staff Store ID:";
+            this.fnamelbl.Text = "Product ID:";
             // 
             // btnAddProduct
             // 
-            this.btnAddProduct.Location = new System.Drawing.Point(218, 276);
+            this.btnAddProduct.Location = new System.Drawing.Point(12, 238);
             this.btnAddProduct.Name = "btnAddProduct";
-            this.btnAddProduct.Size = new System.Drawing.Size(116, 57);
+            this.btnAddProduct.Size = new System.Drawing.Size(326, 57);
             this.btnAddProduct.TabIndex = 36;
             this.btnAddProduct.Text = "Add Product";
             this.btnAddProduct.UseVisualStyleBackColor = true;
+            this.btnAddProduct.Click += new System.EventHandler(this.btnAddProduct_Click);
+            // 
+            // chkUsed
+            // 
+            this.chkUsed.AutoSize = true;
+            this.chkUsed.Location = new System.Drawing.Point(128, 124);
+            this.chkUsed.Name = "chkUsed";
+            this.chkUsed.Size = new System.Drawing.Size(52, 19);
+            this.chkUsed.TabIndex = 37;
+            this.chkUsed.Text = "Used";
+            this.chkUsed.UseVisualStyleBackColor = true;
+            this.chkUsed.CheckedChanged += new System.EventHandler(this.chkUsed_CheckedChanged);
+            // 
+            // txtStoreID
+            // 
+            this.txtStoreID.Location = new System.Drawing.Point(128, 85);
+            this.txtStoreID.Name = "txtStoreID";
+            this.txtStoreID.Size = new System.Drawing.Size(209, 23);
+            this.txtStoreID.TabIndex = 39;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(56, 88);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 15);
+            this.label1.TabIndex = 38;
+            this.label1.Text = "Store ID:";
+            // 
+            // txtSellerID
+            // 
+            this.txtSellerID.Enabled = false;
+            this.txtSellerID.Location = new System.Drawing.Point(128, 159);
+            this.txtSellerID.Name = "txtSellerID";
+            this.txtSellerID.Size = new System.Drawing.Size(52, 23);
+            this.txtSellerID.TabIndex = 40;
+            // 
+            // txtCondition
+            // 
+            this.txtCondition.Enabled = false;
+            this.txtCondition.Location = new System.Drawing.Point(128, 199);
+            this.txtCondition.Name = "txtCondition";
+            this.txtCondition.Size = new System.Drawing.Size(52, 23);
+            this.txtCondition.TabIndex = 41;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 162);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(104, 15);
+            this.label2.TabIndex = 42;
+            this.label2.Text = "Seller Customer ID";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(19, 202);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(88, 15);
+            this.label3.TabIndex = 43;
+            this.label3.Text = "Condition (1-5)";
             // 
             // FrmAddInventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(423, 450);
+            this.ClientSize = new System.Drawing.Size(344, 305);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtCondition);
+            this.Controls.Add(this.txtSellerID);
+            this.Controls.Add(this.txtStoreID);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.chkUsed);
             this.Controls.Add(this.btnAddProduct);
-            this.Controls.Add(this.txtstoreid);
-            this.Controls.Add(this.storeidlbl);
-            this.Controls.Add(this.txtcatagory);
-            this.Controls.Add(this.catagorylbl);
-            this.Controls.Add(this.txtphone);
-            this.Controls.Add(this.phonelbl);
-            this.Controls.Add(this.txtstartdate);
-            this.Controls.Add(this.txtemail);
-            this.Controls.Add(this.txtlname);
-            this.Controls.Add(this.txtfname);
-            this.Controls.Add(this.startdatelbl);
+            this.Controls.Add(this.txtPrice);
+            this.Controls.Add(this.txtProductID);
             this.Controls.Add(this.emaillbl);
-            this.Controls.Add(this.lnamelbl);
             this.Controls.Add(this.fnamelbl);
             this.Name = "FrmAddInventory";
             this.Text = "FrmAddInventory";
@@ -196,20 +172,17 @@ namespace PressStart_DBMS
         }
 
         #endregion
-        private System.Windows.Forms.TextBox txtstartdate;
-        private System.Windows.Forms.TextBox txtemail;
-        private System.Windows.Forms.TextBox txtlname;
-        private System.Windows.Forms.TextBox txtfname;
-        private System.Windows.Forms.Label startdatelbl;
+        private System.Windows.Forms.TextBox txtPrice;
+        private System.Windows.Forms.TextBox txtProductID;
         private System.Windows.Forms.Label emaillbl;
-        private System.Windows.Forms.Label lnamelbl;
         private System.Windows.Forms.Label fnamelbl;
-        private System.Windows.Forms.TextBox txtphone;
-        private System.Windows.Forms.Label phonelbl;
-        private System.Windows.Forms.TextBox txtcatagory;
-        private System.Windows.Forms.Label catagorylbl;
-        private System.Windows.Forms.TextBox txtstoreid;
-        private System.Windows.Forms.Label storeidlbl;
         private System.Windows.Forms.Button btnAddProduct;
+        private System.Windows.Forms.CheckBox chkUsed;
+        private System.Windows.Forms.TextBox txtStoreID;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtSellerID;
+        private System.Windows.Forms.TextBox txtCondition;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
