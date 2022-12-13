@@ -14,12 +14,12 @@ namespace PressStart_DBMS
         private string customerName = "ANONYMOUS";
         DataQueryBuilder dqb;
 
-        bool custIDValid = false;
         bool storeIDValid = false;
 
         string gamesOutput = "";
 
         private List<string> gameSKUs = new List<string>();
+        private List<double> gamePrices = new List<double>();
 
 
         public FrmProcessPurchase()
@@ -32,8 +32,12 @@ namespace PressStart_DBMS
         {
             string receiptText = "";
             
-            receiptText += $"{GetCustomerName()}\n\n";
+            receiptText += $"{GetCustomerName()}" + Environment.NewLine + Environment.NewLine;
             receiptText += gamesOutput;
+            receiptText += Environment.NewLine + Environment.NewLine + GetTotal().ToString();
+            receiptText += Environment.NewLine + Environment.NewLine + Environment.NewLine +
+                GetStore();
+
 
             txtReceiptText.Text = receiptText;
         }
@@ -56,7 +60,7 @@ namespace PressStart_DBMS
             {
                 MessageBox.Show($"Added: {newGame}");
                 gameSKUs.Add(txtSku.Text);
-                gamesOutput += $"{newGame}\n";
+                gamesOutput += $"{newGame}" + Environment.NewLine;
             }
             else
             {
@@ -64,9 +68,22 @@ namespace PressStart_DBMS
             }
         }
 
+        private double GetTotal()
+        {
+            double total = 0;
+            foreach(double p in gamePrices)
+            {
+                total += p;
+            }
+            return total;
+        }
+
         private void btnFinalizeTransaction_Click(object sender, EventArgs e)
         {
-
+            if(gameSKUs.Count > 0 && txtStoreID.Text != "")
+            {
+                InsertTransactionRecord();
+            }
         }
 
         private void btnSearchGames_Click(object sender, EventArgs e)
@@ -75,13 +92,14 @@ namespace PressStart_DBMS
             {
                 string[] columns =
             {
-                "Product_Instance_Table.Product_Instance_Product_ID",
+                "Product_Instance_Table.Product_Instance_ID",
                 "Product_Table.Product_Name",
                 "Product_Instance_Table.Product_Instance_Price",
                 "Product_Instance_Table.Product_Instance_Used"
             };
 
-                DataTable storeData = dqb.SelectInnerJoinWhereLike
+                DataTable storeData = null;
+                storeData = dqb.SelectInnerJoinWhereLike
                     (
                         "Product_Instance_Table",
                         columns,
@@ -106,7 +124,8 @@ namespace PressStart_DBMS
                 "Product_Instance_Table.Product_Instance_Price"
             };
 
-            DataTable prod = dqb.SelectInnerJoin
+            DataTable prod = null;
+            prod = dqb.SelectInnerJoin
                 (
                     "Product_Instance_Table",
                     columns,
@@ -119,6 +138,9 @@ namespace PressStart_DBMS
 
             if (prod.Rows.Count == 1)
             {
+                double thisPrice;
+                double.TryParse(prod.Rows[0]["Product_Instance_Price"].ToString(), out thisPrice);
+                gamePrices.Add(thisPrice);
                 return $"     {prod.Rows[0]["Product_Name"]}: {prod.Rows[0]["Product_Instance_Price"]}";
             }
             else
@@ -136,7 +158,8 @@ namespace PressStart_DBMS
                 "Customer_Last_Name"
             };
 
-            DataTable cust = dqb.SelectAllQuery
+            DataTable cust = null;
+            cust = dqb.SelectAllQuery
                 (
                 "Customer_Table",
                 columns,
@@ -146,13 +169,72 @@ namespace PressStart_DBMS
 
             if (cust.Rows.Count == 1)
             {
-                custIDValid = true;
                 return $"Customer: {cust.Rows[0]["Customer_First_Name"]} {cust.Rows[0]["Customer_Last_Name"]}";
             }
             else
             {
-                custIDValid = false;
-                return "\nERROR: Invalid customer ID\n";
+                return "\nNO CUSTOMER\n";
+            }
+        }
+
+        private string GetStore()
+        {
+            string[] columns =
+            {
+                "Store_Address",
+                "Store_Phone"
+            };
+
+            DataTable store = null;
+
+            store = dqb.SelectAllQuery
+                (
+                "Store_Table",
+                columns,
+                whereClause: "Store_Table_ID",
+                whereSearchTerm: txtStoreID.Text
+                );
+
+            if (store.Rows.Count == 1)
+            {
+                storeIDValid = true;
+                return $"Press Start at {store.Rows[0]["Store_Address"]}" + 
+                    Environment.NewLine + $"Phone: {store.Rows[0]["Store_Phone"]}";
+            }
+            else
+            {
+                storeIDValid = false;
+                return "\nERROR: Invalid store ID\n";
+            }
+        }
+
+        private void InsertTransactionRecord()
+        {
+            DateTime today = DateTime.Now;
+
+            if(storeIDValid)
+            {
+                string[] columns =
+                {
+                    "Transaction_Customer_ID",
+                    "Transaction_Store_ID",
+                    "Transaction_Date",
+                    "Transaction_Amount"
+                };
+
+                string[] values =
+                {
+                    txtCustomerID.Text,
+                    txtStoreID.Text,
+                    today.Date.ToString("yyyy-MM-dd"),
+                    GetTotal().ToString()
+                };
+
+                dqb.InsertQuery("Transaction_Table", columns, values);
+            }
+            else
+            {
+                MessageBox.Show("Invalid store ID");
             }
         }
     }

@@ -42,6 +42,7 @@ namespace PressStart_DBMS
             // dataGridInventory
             // 
             this.dataGridInventory.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridInventory.BackgroundColor = System.Drawing.SystemColors.ControlDarkDark;
             this.dataGridInventory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridInventory.Location = new System.Drawing.Point(12, 89);
             this.dataGridInventory.Name = "dataGridInventory";
@@ -51,55 +52,73 @@ namespace PressStart_DBMS
             // 
             // cbSearchTerm
             // 
+            this.cbSearchTerm.BackColor = System.Drawing.Color.Black;
+            this.cbSearchTerm.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.cbSearchTerm.ForeColor = System.Drawing.Color.Transparent;
             this.cbSearchTerm.FormattingEnabled = true;
-            this.cbSearchTerm.Location = new System.Drawing.Point(58, 35);
+            this.cbSearchTerm.Location = new System.Drawing.Point(68, 35);
             this.cbSearchTerm.Name = "cbSearchTerm";
-            this.cbSearchTerm.Size = new System.Drawing.Size(274, 23);
+            this.cbSearchTerm.Size = new System.Drawing.Size(274, 20);
             this.cbSearchTerm.TabIndex = 1;
             // 
             // txtSearchTerm
             // 
-            this.txtSearchTerm.Location = new System.Drawing.Point(381, 34);
+            this.txtSearchTerm.BackColor = System.Drawing.Color.Black;
+            this.txtSearchTerm.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtSearchTerm.ForeColor = System.Drawing.Color.Transparent;
+            this.txtSearchTerm.Location = new System.Drawing.Point(391, 34);
             this.txtSearchTerm.Name = "txtSearchTerm";
-            this.txtSearchTerm.Size = new System.Drawing.Size(177, 23);
+            this.txtSearchTerm.Size = new System.Drawing.Size(177, 19);
             this.txtSearchTerm.TabIndex = 2;
             // 
             // lblSearch
             // 
             this.lblSearch.AutoSize = true;
+            this.lblSearch.BackColor = System.Drawing.Color.Black;
+            this.lblSearch.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblSearch.ForeColor = System.Drawing.Color.Transparent;
             this.lblSearch.Location = new System.Drawing.Point(7, 38);
             this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(45, 15);
+            this.lblSearch.Size = new System.Drawing.Size(61, 12);
             this.lblSearch.TabIndex = 3;
             this.lblSearch.Text = "Search:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(348, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(27, 15);
+            this.label1.Size = new System.Drawing.Size(37, 12);
             this.label1.TabIndex = 4;
             this.label1.Text = "For:";
             // 
             // btnAddInventory
             // 
+            this.btnAddInventory.BackColor = System.Drawing.Color.Black;
+            this.btnAddInventory.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAddInventory.ForeColor = System.Drawing.Color.Transparent;
             this.btnAddInventory.Location = new System.Drawing.Point(668, 23);
             this.btnAddInventory.Name = "btnAddInventory";
             this.btnAddInventory.Size = new System.Drawing.Size(120, 45);
             this.btnAddInventory.TabIndex = 5;
             this.btnAddInventory.Text = "Add Inventory";
-            this.btnAddInventory.UseVisualStyleBackColor = true;
+            this.btnAddInventory.UseVisualStyleBackColor = false;
             this.btnAddInventory.Click += new System.EventHandler(this.btnAddInventory_Click);
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(564, 34);
+            this.btnSearch.BackColor = System.Drawing.Color.Black;
+            this.btnSearch.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSearch.ForeColor = System.Drawing.Color.Transparent;
+            this.btnSearch.Location = new System.Drawing.Point(580, 32);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(82, 23);
             this.btnSearch.TabIndex = 6;
             this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // FrmInventorySearch
@@ -107,6 +126,8 @@ namespace PressStart_DBMS
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackgroundImage = global::PressStart_DBMS.Properties.Resources.istockphoto_1171564349_640x640;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnAddInventory);

@@ -63,6 +63,16 @@ namespace PressStart_DBMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Controller_clipart_transparent {
+            get {
+                object obj = ResourceManager.GetObject("Controller clipart transparent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1171564349_640x640 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1171564349-640x640", resourceCulture);

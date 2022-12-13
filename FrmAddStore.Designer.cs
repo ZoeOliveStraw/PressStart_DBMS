@@ -38,44 +38,59 @@ namespace PressStart_DBMS
             // 
             // txtphone
             // 
-            this.txtphone.Location = new System.Drawing.Point(125, 68);
+            this.txtphone.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtphone.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtphone.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtphone.Location = new System.Drawing.Point(90, 55);
             this.txtphone.Name = "txtphone";
-            this.txtphone.Size = new System.Drawing.Size(209, 23);
+            this.txtphone.Size = new System.Drawing.Size(209, 19);
             this.txtphone.TabIndex = 28;
             // 
             // txtaddress
             // 
-            this.txtaddress.Location = new System.Drawing.Point(125, 28);
+            this.txtaddress.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtaddress.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtaddress.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtaddress.Location = new System.Drawing.Point(90, 15);
             this.txtaddress.Name = "txtaddress";
-            this.txtaddress.Size = new System.Drawing.Size(209, 23);
+            this.txtaddress.Size = new System.Drawing.Size(209, 19);
             this.txtaddress.TabIndex = 26;
             // 
             // phonelbl
             // 
             this.phonelbl.AutoSize = true;
-            this.phonelbl.Location = new System.Drawing.Point(75, 71);
+            this.phonelbl.BackColor = System.Drawing.SystemColors.WindowText;
+            this.phonelbl.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.phonelbl.ForeColor = System.Drawing.SystemColors.Window;
+            this.phonelbl.Location = new System.Drawing.Point(29, 58);
             this.phonelbl.Name = "phonelbl";
-            this.phonelbl.Size = new System.Drawing.Size(44, 15);
+            this.phonelbl.Size = new System.Drawing.Size(53, 12);
             this.phonelbl.TabIndex = 24;
             this.phonelbl.Text = "Phone:";
             // 
             // addresslbl
             // 
             this.addresslbl.AutoSize = true;
-            this.addresslbl.Location = new System.Drawing.Point(67, 31);
+            this.addresslbl.BackColor = System.Drawing.SystemColors.WindowText;
+            this.addresslbl.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.addresslbl.ForeColor = System.Drawing.SystemColors.Window;
+            this.addresslbl.Location = new System.Drawing.Point(13, 18);
             this.addresslbl.Name = "addresslbl";
-            this.addresslbl.Size = new System.Drawing.Size(52, 15);
+            this.addresslbl.Size = new System.Drawing.Size(69, 12);
             this.addresslbl.TabIndex = 22;
             this.addresslbl.Text = "Address:";
             // 
             // btnAddStore
             // 
-            this.btnAddStore.Location = new System.Drawing.Point(165, 112);
+            this.btnAddStore.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnAddStore.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAddStore.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnAddStore.Location = new System.Drawing.Point(90, 99);
             this.btnAddStore.Name = "btnAddStore";
             this.btnAddStore.Size = new System.Drawing.Size(116, 57);
             this.btnAddStore.TabIndex = 36;
             this.btnAddStore.Text = "Add Store";
-            this.btnAddStore.UseVisualStyleBackColor = true;
+            this.btnAddStore.UseVisualStyleBackColor = false;
             this.btnAddStore.Click += new System.EventHandler(this.btnAddStore_Click);
             // 
             // FrmAddStore
@@ -83,7 +98,9 @@ namespace PressStart_DBMS
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(423, 256);
+            this.BackgroundImage = global::PressStart_DBMS.Properties.Resources.istockphoto_1171564349_640x640;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(308, 171);
             this.Controls.Add(this.btnAddStore);
             this.Controls.Add(this.txtphone);
             this.Controls.Add(this.txtaddress);

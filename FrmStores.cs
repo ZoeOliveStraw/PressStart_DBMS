@@ -17,6 +17,7 @@ namespace PressStart_DBMS
             InitializeComponent();
             dqb = new DataQueryBuilder();
             ListStores();
+            PopulateComboBox(cbSearchStores);
         }
 
         private void btnAddStore_Click(object sender, EventArgs e)
@@ -28,8 +29,29 @@ namespace PressStart_DBMS
 
         private void ListStores()
         {
-            DataTable storeData = dqb.SelectAllQuery("Store_Table");
+            DataTable storeData; //datatable we can use to 
+            if (cbSearchStores.SelectedItem == null || txtSearchStores.Text == "")
+            {
+                storeData = dqb.SelectAllQuery("Store_Table");
+            }
+            else
+            {
+                storeData = dqb.SelectAllQuery("Store_Table",
+                    whereClause: cbSearchStores.SelectedItem.ToString(),
+                    whereSearchTerm: txtSearchStores.Text);
+            }
             dataGridStore.DataSource = storeData;
+        }
+
+        private void btnSearchStores_Click(object sender, EventArgs e)
+        {
+            ListStores();
+        }
+
+        private void PopulateComboBox(ComboBox box)
+        {
+            string[] items = { "Store_Table_ID", "Store_Address", "Store_Address" };
+            box.Items.AddRange(items);
         }
     }
 }

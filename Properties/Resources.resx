@@ -121,4 +121,7 @@
   <data name="istockphoto-1171564349-640x640" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\istockphoto-1171564349-640x640.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Controller clipart transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Controller clipart transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

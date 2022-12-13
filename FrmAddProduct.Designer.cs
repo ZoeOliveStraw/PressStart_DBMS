@@ -42,76 +42,103 @@ namespace PressStart_DBMS
             // 
             // txtSupplierContact
             // 
-            this.txtSupplierContact.Location = new System.Drawing.Point(137, 125);
+            this.txtSupplierContact.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtSupplierContact.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtSupplierContact.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtSupplierContact.Location = new System.Drawing.Point(148, 125);
             this.txtSupplierContact.Name = "txtSupplierContact";
-            this.txtSupplierContact.Size = new System.Drawing.Size(209, 23);
+            this.txtSupplierContact.Size = new System.Drawing.Size(199, 19);
             this.txtSupplierContact.TabIndex = 30;
             // 
             // txtSupplierNotes
             // 
-            this.txtSupplierNotes.Location = new System.Drawing.Point(137, 91);
+            this.txtSupplierNotes.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtSupplierNotes.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtSupplierNotes.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtSupplierNotes.Location = new System.Drawing.Point(148, 91);
             this.txtSupplierNotes.Name = "txtSupplierNotes";
-            this.txtSupplierNotes.Size = new System.Drawing.Size(209, 23);
+            this.txtSupplierNotes.Size = new System.Drawing.Size(199, 19);
             this.txtSupplierNotes.TabIndex = 29;
             // 
             // txtSupplierPhone
             // 
-            this.txtSupplierPhone.Location = new System.Drawing.Point(137, 53);
+            this.txtSupplierPhone.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtSupplierPhone.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtSupplierPhone.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtSupplierPhone.Location = new System.Drawing.Point(148, 53);
             this.txtSupplierPhone.Name = "txtSupplierPhone";
-            this.txtSupplierPhone.Size = new System.Drawing.Size(209, 23);
+            this.txtSupplierPhone.Size = new System.Drawing.Size(199, 19);
             this.txtSupplierPhone.TabIndex = 28;
             // 
             // txtProductName
             // 
-            this.txtProductName.Location = new System.Drawing.Point(137, 19);
+            this.txtProductName.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtProductName.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtProductName.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtProductName.Location = new System.Drawing.Point(148, 19);
             this.txtProductName.Name = "txtProductName";
-            this.txtProductName.Size = new System.Drawing.Size(209, 23);
+            this.txtProductName.Size = new System.Drawing.Size(199, 19);
             this.txtProductName.TabIndex = 27;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(36, 128);
+            this.label4.BackColor = System.Drawing.SystemColors.WindowText;
+            this.label4.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.SystemColors.Window;
+            this.label4.Location = new System.Drawing.Point(7, 128);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(95, 15);
+            this.label4.Size = new System.Drawing.Size(133, 12);
             this.label4.TabIndex = 26;
             this.label4.Text = "Supplier Contact";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(47, 94);
+            this.label3.BackColor = System.Drawing.SystemColors.WindowText;
+            this.label3.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.Window;
+            this.label3.Location = new System.Drawing.Point(23, 94);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(84, 15);
+            this.label3.Size = new System.Drawing.Size(117, 12);
             this.label3.TabIndex = 25;
             this.label3.Text = "Supplier Notes";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(44, 56);
+            this.label2.BackColor = System.Drawing.SystemColors.WindowText;
+            this.label2.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.Window;
+            this.label2.Location = new System.Drawing.Point(23, 56);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 15);
+            this.label2.Size = new System.Drawing.Size(117, 12);
             this.label2.TabIndex = 24;
             this.label2.Text = "Supplier Phone";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 22);
+            this.label1.BackColor = System.Drawing.SystemColors.WindowText;
+            this.label1.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.Window;
+            this.label1.Location = new System.Drawing.Point(39, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(84, 15);
+            this.label1.Size = new System.Drawing.Size(101, 12);
             this.label1.TabIndex = 23;
             this.label1.Text = "Product Name";
             // 
             // btnAddRepairOrder
             // 
+            this.btnAddRepairOrder.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnAddRepairOrder.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAddRepairOrder.ForeColor = System.Drawing.SystemColors.Window;
             this.btnAddRepairOrder.Location = new System.Drawing.Point(10, 237);
             this.btnAddRepairOrder.Name = "btnAddRepairOrder";
             this.btnAddRepairOrder.Size = new System.Drawing.Size(336, 57);
             this.btnAddRepairOrder.TabIndex = 22;
             this.btnAddRepairOrder.Text = "Add Product";
-            this.btnAddRepairOrder.UseVisualStyleBackColor = true;
+            this.btnAddRepairOrder.UseVisualStyleBackColor = false;
             this.btnAddRepairOrder.Click += new System.EventHandler(this.btnAddRepairOrder_Click);
             // 
             // FrmAddProduct
@@ -119,6 +146,8 @@ namespace PressStart_DBMS
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.BackgroundImage = global::PressStart_DBMS.Properties.Resources.istockphoto_1171564349_640x640;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(359, 306);
             this.Controls.Add(this.txtSupplierContact);
             this.Controls.Add(this.txtSupplierNotes);

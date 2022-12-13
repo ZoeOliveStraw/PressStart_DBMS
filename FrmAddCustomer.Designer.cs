@@ -43,94 +43,126 @@ namespace PressStart_DBMS
             // 
             // btnAddCustomer
             // 
-            this.btnAddCustomer.Location = new System.Drawing.Point(13, 381);
+            this.btnAddCustomer.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnAddCustomer.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAddCustomer.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnAddCustomer.Location = new System.Drawing.Point(8, 200);
             this.btnAddCustomer.Name = "btnAddCustomer";
-            this.btnAddCustomer.Size = new System.Drawing.Size(286, 57);
+            this.btnAddCustomer.Size = new System.Drawing.Size(308, 57);
             this.btnAddCustomer.TabIndex = 0;
             this.btnAddCustomer.Text = "Add Customer";
-            this.btnAddCustomer.UseVisualStyleBackColor = true;
+            this.btnAddCustomer.UseVisualStyleBackColor = false;
             this.btnAddCustomer.Click += new System.EventHandler(this.btnAddCustomer_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 23);
+            this.label1.BackColor = System.Drawing.SystemColors.WindowText;
+            this.label1.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.Window;
+            this.label1.Location = new System.Drawing.Point(8, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 15);
+            this.label1.Size = new System.Drawing.Size(93, 12);
             this.label1.TabIndex = 1;
             this.label1.Text = "First Name:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(18, 57);
+            this.label2.BackColor = System.Drawing.SystemColors.WindowText;
+            this.label2.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.Window;
+            this.label2.Location = new System.Drawing.Point(16, 57);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 15);
+            this.label2.Size = new System.Drawing.Size(85, 12);
             this.label2.TabIndex = 2;
             this.label2.Text = "Last Name:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(45, 95);
+            this.label3.BackColor = System.Drawing.SystemColors.WindowText;
+            this.label3.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.Window;
+            this.label3.Location = new System.Drawing.Point(48, 95);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 15);
+            this.label3.Size = new System.Drawing.Size(53, 12);
             this.label3.TabIndex = 3;
             this.label3.Text = "Email:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(40, 129);
+            this.label4.BackColor = System.Drawing.SystemColors.WindowText;
+            this.label4.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.SystemColors.Window;
+            this.label4.Location = new System.Drawing.Point(48, 129);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 15);
+            this.label4.Size = new System.Drawing.Size(53, 12);
             this.label4.TabIndex = 4;
             this.label4.Text = "Phone:";
             // 
             // txtFirstName
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(90, 20);
+            this.txtFirstName.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtFirstName.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtFirstName.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtFirstName.Location = new System.Drawing.Point(107, 20);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(209, 23);
+            this.txtFirstName.Size = new System.Drawing.Size(209, 19);
             this.txtFirstName.TabIndex = 6;
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(90, 54);
+            this.txtLastName.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtLastName.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtLastName.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtLastName.Location = new System.Drawing.Point(107, 54);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(209, 23);
+            this.txtLastName.Size = new System.Drawing.Size(209, 19);
             this.txtLastName.TabIndex = 7;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(90, 92);
+            this.txtEmail.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtEmail.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtEmail.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtEmail.Location = new System.Drawing.Point(107, 92);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(209, 23);
+            this.txtEmail.Size = new System.Drawing.Size(209, 19);
             this.txtEmail.TabIndex = 8;
             // 
             // txtPhone
             // 
-            this.txtPhone.Location = new System.Drawing.Point(90, 126);
+            this.txtPhone.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtPhone.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtPhone.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtPhone.Location = new System.Drawing.Point(107, 126);
             this.txtPhone.Name = "txtPhone";
-            this.txtPhone.Size = new System.Drawing.Size(209, 23);
+            this.txtPhone.Size = new System.Drawing.Size(209, 19);
             this.txtPhone.TabIndex = 9;
             // 
             // chkMailingList
             // 
             this.chkMailingList.AutoSize = true;
+            this.chkMailingList.BackColor = System.Drawing.SystemColors.WindowText;
+            this.chkMailingList.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.chkMailingList.ForeColor = System.Drawing.SystemColors.Window;
             this.chkMailingList.Location = new System.Drawing.Point(91, 166);
             this.chkMailingList.Name = "chkMailingList";
-            this.chkMailingList.Size = new System.Drawing.Size(87, 19);
+            this.chkMailingList.Size = new System.Drawing.Size(120, 16);
             this.chkMailingList.TabIndex = 10;
             this.chkMailingList.Text = "Mailing List";
-            this.chkMailingList.UseVisualStyleBackColor = true;
+            this.chkMailingList.UseVisualStyleBackColor = false;
             // 
             // FrmAddCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(311, 450);
+            this.BackgroundImage = global::PressStart_DBMS.Properties.Resources.istockphoto_1171564349_640x640;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(328, 272);
             this.Controls.Add(this.chkMailingList);
             this.Controls.Add(this.txtPhone);
             this.Controls.Add(this.txtEmail);

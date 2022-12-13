@@ -51,55 +51,73 @@ namespace PressStart_DBMS
             // 
             // cbSearchTerm
             // 
+            this.cbSearchTerm.BackColor = System.Drawing.SystemColors.WindowText;
+            this.cbSearchTerm.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.cbSearchTerm.ForeColor = System.Drawing.SystemColors.Window;
             this.cbSearchTerm.FormattingEnabled = true;
-            this.cbSearchTerm.Location = new System.Drawing.Point(58, 35);
+            this.cbSearchTerm.Location = new System.Drawing.Point(72, 35);
             this.cbSearchTerm.Name = "cbSearchTerm";
-            this.cbSearchTerm.Size = new System.Drawing.Size(158, 23);
+            this.cbSearchTerm.Size = new System.Drawing.Size(158, 20);
             this.cbSearchTerm.TabIndex = 1;
             // 
             // txtSearchTerm
             // 
-            this.txtSearchTerm.Location = new System.Drawing.Point(258, 35);
+            this.txtSearchTerm.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtSearchTerm.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtSearchTerm.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtSearchTerm.Location = new System.Drawing.Point(282, 35);
             this.txtSearchTerm.Name = "txtSearchTerm";
-            this.txtSearchTerm.Size = new System.Drawing.Size(177, 23);
+            this.txtSearchTerm.Size = new System.Drawing.Size(177, 19);
             this.txtSearchTerm.TabIndex = 2;
             // 
             // lblSearch
             // 
             this.lblSearch.AutoSize = true;
+            this.lblSearch.BackColor = System.Drawing.SystemColors.WindowText;
+            this.lblSearch.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblSearch.ForeColor = System.Drawing.SystemColors.Window;
             this.lblSearch.Location = new System.Drawing.Point(7, 38);
             this.lblSearch.Name = "lblSearch";
-            this.lblSearch.Size = new System.Drawing.Size(45, 15);
+            this.lblSearch.Size = new System.Drawing.Size(61, 12);
             this.lblSearch.TabIndex = 3;
             this.lblSearch.Text = "Search:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(225, 38);
+            this.label1.BackColor = System.Drawing.SystemColors.WindowText;
+            this.label1.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.Window;
+            this.label1.Location = new System.Drawing.Point(239, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(27, 15);
+            this.label1.Size = new System.Drawing.Size(37, 12);
             this.label1.TabIndex = 4;
             this.label1.Text = "For:";
             // 
             // btnAddCustomer
             // 
+            this.btnAddCustomer.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnAddCustomer.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAddCustomer.ForeColor = System.Drawing.SystemColors.Window;
             this.btnAddCustomer.Location = new System.Drawing.Point(668, 23);
             this.btnAddCustomer.Name = "btnAddCustomer";
             this.btnAddCustomer.Size = new System.Drawing.Size(120, 45);
             this.btnAddCustomer.TabIndex = 5;
             this.btnAddCustomer.Text = "Add Customer";
-            this.btnAddCustomer.UseVisualStyleBackColor = true;
+            this.btnAddCustomer.UseVisualStyleBackColor = false;
             this.btnAddCustomer.Click += new System.EventHandler(this.btnAddCustomer_Click);
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(441, 35);
+            this.btnSearch.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnSearch.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnSearch.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnSearch.Location = new System.Drawing.Point(465, 33);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(82, 23);
             this.btnSearch.TabIndex = 6;
             this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // FrmCustomers
@@ -107,6 +125,8 @@ namespace PressStart_DBMS
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackgroundImage = global::PressStart_DBMS.Properties.Resources.istockphoto_1171564349_640x640;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnAddCustomer);

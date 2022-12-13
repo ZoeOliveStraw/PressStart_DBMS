@@ -48,124 +48,169 @@ namespace PressStart_DBMS
             // 
             // txtstartdate
             // 
-            this.txtstartdate.Location = new System.Drawing.Point(125, 134);
+            this.txtstartdate.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtstartdate.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtstartdate.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtstartdate.Location = new System.Drawing.Point(164, 123);
             this.txtstartdate.Name = "txtstartdate";
-            this.txtstartdate.Size = new System.Drawing.Size(209, 23);
+            this.txtstartdate.Size = new System.Drawing.Size(209, 19);
             this.txtstartdate.TabIndex = 29;
             // 
             // txtemail
             // 
-            this.txtemail.Location = new System.Drawing.Point(125, 100);
+            this.txtemail.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtemail.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtemail.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtemail.Location = new System.Drawing.Point(164, 89);
             this.txtemail.Name = "txtemail";
-            this.txtemail.Size = new System.Drawing.Size(209, 23);
+            this.txtemail.Size = new System.Drawing.Size(209, 19);
             this.txtemail.TabIndex = 28;
             // 
             // txtlname
             // 
-            this.txtlname.Location = new System.Drawing.Point(125, 62);
+            this.txtlname.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtlname.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtlname.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtlname.Location = new System.Drawing.Point(164, 51);
             this.txtlname.Name = "txtlname";
-            this.txtlname.Size = new System.Drawing.Size(209, 23);
+            this.txtlname.Size = new System.Drawing.Size(209, 19);
             this.txtlname.TabIndex = 27;
             // 
             // txtfname
             // 
-            this.txtfname.Location = new System.Drawing.Point(125, 28);
+            this.txtfname.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtfname.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtfname.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtfname.Location = new System.Drawing.Point(164, 17);
             this.txtfname.Name = "txtfname";
-            this.txtfname.Size = new System.Drawing.Size(209, 23);
+            this.txtfname.Size = new System.Drawing.Size(209, 19);
             this.txtfname.TabIndex = 26;
             // 
             // startdatelbl
             // 
             this.startdatelbl.AutoSize = true;
-            this.startdatelbl.Location = new System.Drawing.Point(31, 137);
+            this.startdatelbl.BackColor = System.Drawing.SystemColors.WindowText;
+            this.startdatelbl.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.startdatelbl.ForeColor = System.Drawing.SystemColors.Window;
+            this.startdatelbl.Location = new System.Drawing.Point(17, 126);
             this.startdatelbl.Name = "startdatelbl";
-            this.startdatelbl.Size = new System.Drawing.Size(88, 15);
+            this.startdatelbl.Size = new System.Drawing.Size(141, 12);
             this.startdatelbl.TabIndex = 25;
             this.startdatelbl.Text = "Staff Start Date:";
             // 
             // emaillbl
             // 
             this.emaillbl.AutoSize = true;
-            this.emaillbl.Location = new System.Drawing.Point(53, 103);
+            this.emaillbl.BackColor = System.Drawing.SystemColors.WindowText;
+            this.emaillbl.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.emaillbl.ForeColor = System.Drawing.SystemColors.Window;
+            this.emaillbl.Location = new System.Drawing.Point(57, 92);
             this.emaillbl.Name = "emaillbl";
-            this.emaillbl.Size = new System.Drawing.Size(66, 15);
+            this.emaillbl.Size = new System.Drawing.Size(101, 12);
             this.emaillbl.TabIndex = 24;
             this.emaillbl.Text = "Staff Email:";
             // 
             // lnamelbl
             // 
             this.lnamelbl.AutoSize = true;
-            this.lnamelbl.Location = new System.Drawing.Point(26, 65);
+            this.lnamelbl.BackColor = System.Drawing.SystemColors.WindowText;
+            this.lnamelbl.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lnamelbl.ForeColor = System.Drawing.SystemColors.Window;
+            this.lnamelbl.Location = new System.Drawing.Point(25, 54);
             this.lnamelbl.Name = "lnamelbl";
-            this.lnamelbl.Size = new System.Drawing.Size(93, 15);
+            this.lnamelbl.Size = new System.Drawing.Size(133, 12);
             this.lnamelbl.TabIndex = 23;
             this.lnamelbl.Text = "Staff Last Name:";
             // 
             // fnamelbl
             // 
             this.fnamelbl.AutoSize = true;
-            this.fnamelbl.Location = new System.Drawing.Point(25, 31);
+            this.fnamelbl.BackColor = System.Drawing.SystemColors.WindowText;
+            this.fnamelbl.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.fnamelbl.ForeColor = System.Drawing.SystemColors.Window;
+            this.fnamelbl.Location = new System.Drawing.Point(17, 20);
             this.fnamelbl.Name = "fnamelbl";
-            this.fnamelbl.Size = new System.Drawing.Size(94, 15);
+            this.fnamelbl.Size = new System.Drawing.Size(141, 12);
             this.fnamelbl.TabIndex = 22;
             this.fnamelbl.Text = "Staff First Name:";
             // 
             // txtphone
             // 
-            this.txtphone.Location = new System.Drawing.Point(125, 166);
+            this.txtphone.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtphone.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtphone.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtphone.Location = new System.Drawing.Point(164, 155);
             this.txtphone.Name = "txtphone";
-            this.txtphone.Size = new System.Drawing.Size(209, 23);
+            this.txtphone.Size = new System.Drawing.Size(209, 19);
             this.txtphone.TabIndex = 31;
             // 
             // phonelbl
             // 
             this.phonelbl.AutoSize = true;
-            this.phonelbl.Location = new System.Drawing.Point(48, 169);
+            this.phonelbl.BackColor = System.Drawing.SystemColors.WindowText;
+            this.phonelbl.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.phonelbl.ForeColor = System.Drawing.SystemColors.Window;
+            this.phonelbl.Location = new System.Drawing.Point(57, 158);
             this.phonelbl.Name = "phonelbl";
-            this.phonelbl.Size = new System.Drawing.Size(71, 15);
+            this.phonelbl.Size = new System.Drawing.Size(101, 12);
             this.phonelbl.TabIndex = 30;
             this.phonelbl.Text = "Staff Phone:";
             // 
             // txtcatagory
             // 
-            this.txtcatagory.Location = new System.Drawing.Point(125, 198);
+            this.txtcatagory.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtcatagory.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtcatagory.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtcatagory.Location = new System.Drawing.Point(164, 187);
             this.txtcatagory.Name = "txtcatagory";
-            this.txtcatagory.Size = new System.Drawing.Size(209, 23);
+            this.txtcatagory.Size = new System.Drawing.Size(209, 19);
             this.txtcatagory.TabIndex = 33;
             // 
             // catagorylbl
             // 
             this.catagorylbl.AutoSize = true;
-            this.catagorylbl.Location = new System.Drawing.Point(34, 201);
+            this.catagorylbl.BackColor = System.Drawing.SystemColors.WindowText;
+            this.catagorylbl.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.catagorylbl.ForeColor = System.Drawing.SystemColors.Window;
+            this.catagorylbl.Location = new System.Drawing.Point(33, 190);
             this.catagorylbl.Name = "catagorylbl";
-            this.catagorylbl.Size = new System.Drawing.Size(85, 15);
+            this.catagorylbl.Size = new System.Drawing.Size(125, 12);
             this.catagorylbl.TabIndex = 32;
             this.catagorylbl.Text = "Staff Catagory:";
             // 
             // txtstoreid
             // 
-            this.txtstoreid.Location = new System.Drawing.Point(125, 230);
+            this.txtstoreid.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txtstoreid.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtstoreid.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtstoreid.Location = new System.Drawing.Point(164, 219);
             this.txtstoreid.Name = "txtstoreid";
-            this.txtstoreid.Size = new System.Drawing.Size(209, 23);
+            this.txtstoreid.Size = new System.Drawing.Size(209, 19);
             this.txtstoreid.TabIndex = 35;
             // 
             // storeidlbl
             // 
             this.storeidlbl.AutoSize = true;
-            this.storeidlbl.Location = new System.Drawing.Point(41, 233);
+            this.storeidlbl.BackColor = System.Drawing.SystemColors.WindowText;
+            this.storeidlbl.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.storeidlbl.ForeColor = System.Drawing.SystemColors.Window;
+            this.storeidlbl.Location = new System.Drawing.Point(33, 222);
             this.storeidlbl.Name = "storeidlbl";
-            this.storeidlbl.Size = new System.Drawing.Size(78, 15);
+            this.storeidlbl.Size = new System.Drawing.Size(125, 12);
             this.storeidlbl.TabIndex = 34;
             this.storeidlbl.Text = "Staff Store ID:";
             // 
             // btnAddStaff
             // 
-            this.btnAddStaff.Location = new System.Drawing.Point(218, 276);
+            this.btnAddStaff.BackColor = System.Drawing.SystemColors.WindowText;
+            this.btnAddStaff.Font = new System.Drawing.Font("Lucida Console", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnAddStaff.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnAddStaff.Location = new System.Drawing.Point(137, 260);
             this.btnAddStaff.Name = "btnAddStaff";
             this.btnAddStaff.Size = new System.Drawing.Size(116, 57);
             this.btnAddStaff.TabIndex = 36;
             this.btnAddStaff.Text = "Add Staff Member";
-            this.btnAddStaff.UseVisualStyleBackColor = true;
+            this.btnAddStaff.UseVisualStyleBackColor = false;
             this.btnAddStaff.Click += new System.EventHandler(this.btnAddStaff_Click);
             // 
             // FrmAddStaff
@@ -173,7 +218,9 @@ namespace PressStart_DBMS
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(423, 450);
+            this.BackgroundImage = global::PressStart_DBMS.Properties.Resources.istockphoto_1171564349_640x640;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(391, 344);
             this.Controls.Add(this.btnAddStaff);
             this.Controls.Add(this.txtstoreid);
             this.Controls.Add(this.storeidlbl);

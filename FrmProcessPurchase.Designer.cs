@@ -49,6 +49,7 @@ namespace PressStart_DBMS
             // 
             // dataGameSearch
             // 
+            this.dataGameSearch.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGameSearch.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGameSearch.Location = new System.Drawing.Point(12, 351);
             this.dataGameSearch.Name = "dataGameSearch";
@@ -106,6 +107,7 @@ namespace PressStart_DBMS
             // txtReceiptText
             // 
             this.txtReceiptText.AcceptsReturn = true;
+            this.txtReceiptText.AcceptsTab = true;
             this.txtReceiptText.BackColor = System.Drawing.SystemColors.ControlText;
             this.txtReceiptText.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtReceiptText.ForeColor = System.Drawing.SystemColors.Control;
