@@ -58,5 +58,11 @@ namespace PressStart_DBMS
             FrmProcessPurchase processPurchaseInstance = new FrmProcessPurchase();
             processPurchaseInstance.ShowDialog();
         }
+
+        private void btnTransactionHistory_Click(object sender, EventArgs e)
+        {
+            FromTransactions transForm = new FromTransactions();
+            transForm.ShowDialog();
+        }
     }
 }

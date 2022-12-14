@@ -157,6 +157,7 @@ namespace PressStart_DBMS
             this.btnTransactionHistory.TabIndex = 7;
             this.btnTransactionHistory.Text = "Transaction History";
             this.btnTransactionHistory.UseVisualStyleBackColor = false;
+            this.btnTransactionHistory.Click += new System.EventHandler(this.btnTransactionHistory_Click);
             // 
             // Form1
             // 
