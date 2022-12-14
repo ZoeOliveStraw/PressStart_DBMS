@@ -117,3 +117,10 @@ C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3
 C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmProducts.resources
 C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmProcessPurchase.resources
 C:\Users\Zoe\Documents\School\DBAS Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.Properties.Resources.resources
+C:\Users\zoeol\Documents\School\Databases 3\Final Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddInventory.resources
+C:\Users\zoeol\Documents\School\Databases 3\Final Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddProduct.resources
+C:\Users\zoeol\Documents\School\Databases 3\Final Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddStaff.resources
+C:\Users\zoeol\Documents\School\Databases 3\Final Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmAddStore.resources
+C:\Users\zoeol\Documents\School\Databases 3\Final Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmProcessPurchase.resources
+C:\Users\zoeol\Documents\School\Databases 3\Final Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.FrmProducts.resources
+C:\Users\zoeol\Documents\School\Databases 3\Final Project\PressStart_DBMS\obj\Debug\netcoreapp3.1\PressStart_DBMS.Properties.Resources.resources

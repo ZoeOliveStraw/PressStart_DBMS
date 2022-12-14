@@ -45,7 +45,14 @@ namespace PressStart_DBMS
 
         private void PopulateComboBox(ComboBox box)
         {
-            string[] items = { "Customer_First_Name", "Customer_Last_Name", "Customer_Email", "Customer_Phone" };
+            string[] items = 
+                { 
+                    "Customer_First_Name", 
+                    "Customer_Last_Name", 
+                    "Customer_Email", 
+                    "Customer_Phone",
+                    "Customer_Mailing_List"
+                };
             box.Items.AddRange(items);
         }
 
